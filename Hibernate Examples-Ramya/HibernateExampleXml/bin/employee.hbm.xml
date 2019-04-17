@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+	<class name="com.tharanga.hiexample.Employee" table="emp">
+		<id name="id">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="Name"></property>
+		<property name="Email"></property>
+		<property name="Phonenumber"></property>
+
+	</class>
+
+</hibernate-mapping>  
